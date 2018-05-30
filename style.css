@@ -1,9 +1,71 @@
 body {
-    color: #444;
+  background-image: url("https://thumb7.shutterstock.com/mosaic_250/1932410/482355415/stock-photo-paper-texture-background-crumpled-paper-texture-background-482355415.jpg");
+}
+
+html, body {
     font-family: Arial, sans-serif;
+    height: 85%;
+    margin: 50px;
+    padding: 0;
+}
+.title{
+
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border:5px solid #262626;
+  background-color: #0005;
+}
+
+.title1{
+  text-align: center;
 }
 
 .container {
-    width: 100%;
+    width: 80%;
     max-width: 960px;
+}
+
+#map {
+  height: 110%;
+}
+
+#tableDistances, th, td{
+	padding: 5px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+#tableDistances,#tableHousing,#tableCrimes{
+  border:black 5px solid;
+
+  text-align: center;
+  height: 500px;
+  width:100%;
+  overflow: auto;
+}
+
+
+.barras1 div{
+  font-size: 10px;
+  background-color: blue;
+  text-align: right;
+  padding: 2px;
+  margin: 5px;
+  color: white;
+}
+.barras2 div{
+  font-size: 10px;
+  background-color: blue;
+  text-align: right;
+  padding: 2px;
+  margin: 5px;
+  color: white;
+}
+.barras3 div{
+  font-size: 10px;
+  background-color: blue;
+  text-align: right;
+  padding: 2px;
+  margin: 5px;
+  color: white;
 }
